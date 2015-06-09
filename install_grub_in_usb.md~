@@ -30,6 +30,4 @@
 
 启动 GParted （安装：`sudo apt-get install gparted`），找到 U 盘和 U 盘的分区，右击，选择“管理标识”，并勾选 `boot` 标识。
 
-GRUB 目录为 U 盘根目录下的 `grubold/grub` 目录。
-
-**如果你使用的发行版用的是`grub2-install`，就把对应位置的名字换成grub2即可**
+GRUB 目录为 U 盘根目录下的 grub 目录。将 grub_legacy.cfg 复制到里面并更名为 grub.cfg 即可使用。
